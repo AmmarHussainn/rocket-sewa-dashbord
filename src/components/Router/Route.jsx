@@ -10,6 +10,8 @@ import AdminDash from '../Main/AdminDash';
 import RegisterUser from '../Main/RegisterUser';
 import LoginForm from '../Main/LoginForm';
 import SuperAdminDash from '../Main/SuperAdminDash';
+import HospDashboard from "../Main/HospDashbaord"
+import AddHospUser from "../Inner/AddHospUser"
 
 const Router = () => {
   return (
@@ -25,6 +27,8 @@ const Router = () => {
         <Route path="/renewsub" element={<RenewSub/>} />
         <Route path="/admindash" element={<AdminDash/>} />
         <Route path="/superadmin" element={<SuperAdminDash/>} />
+        <Route path="/hospDashboard" element={<HospDashboard/>} />
+        <Route path="/addHospUser" element={<AddHospUser/>} />
       </Routes>
     </BrowserRouter>
   )
