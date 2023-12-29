@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Sidebar from './Sidebar';
+
+import SuperAdminSidebar from './SuperAdminSideBar';
 
 const   SuperAdminDashboard = () => {
   const [interactions, setInteractions] = useState(0);
@@ -20,7 +21,7 @@ const   SuperAdminDashboard = () => {
 
   return (
     <div className="flex">
-      <Sidebar />
+     <SuperAdminSidebar />
       <div className="container mx-5 mt-8">
         <h1 className="text-2xl font-bold my-4">Dashboard</h1>
         <h1 className="text-2xl font-bold mb-4">Welcome</h1>
