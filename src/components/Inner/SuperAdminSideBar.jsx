@@ -15,6 +15,7 @@ const SuperAdminSidebar = () => {
       <ul className="space-y-2 mt-6">
         <a href="/dashboard"><li className="p-4 hover:bg-gray-700 cursor-pointer">Dashboard</li></a>
         <li className="p-4 hover:bg-gray-700 cursor-pointer">Analytics</li>
+        <li className="p-4 hover:bg-gray-700 cursor-pointer">Manage User</li>
 
         {/* Use the dropdown code for the "Settings" menu item */}
         <div className="relative group">
