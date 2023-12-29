@@ -9,6 +9,7 @@ import RenewSub from '../Inner/RenewSub';
 import AdminDash from '../Main/AdminDash';
 import RegisterUser from '../Main/RegisterUser';
 import LoginForm from '../Main/LoginForm';
+import SuperAdminDash from '../Main/SuperAdminDash';
 
 const Router = () => {
   return (
@@ -23,6 +24,7 @@ const Router = () => {
         <Route path="/dashboard" element={<Dashboard/>} />
         <Route path="/renewsub" element={<RenewSub/>} />
         <Route path="/admindash" element={<AdminDash/>} />
+        <Route path="/superadmin" element={<SuperAdminDash/>} />
       </Routes>
     </BrowserRouter>
   )
