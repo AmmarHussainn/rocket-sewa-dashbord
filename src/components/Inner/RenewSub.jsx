@@ -16,7 +16,6 @@ const RenewSub = () => {
 
   return (
     <div className="flex">
-      <Sidebar />
       <div className="container mx-5 mt-8">
         <h1 className="text-2xl font-bold my-4">Renew Subscription</h1>
 

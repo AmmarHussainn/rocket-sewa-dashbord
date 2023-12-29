@@ -23,7 +23,7 @@ const   SuperAdminDashboard = () => {
     <div className="flex">
      <SuperAdminSidebar />
       <div className="container mx-5 mt-8">
-        <h1 className="text-2xl font-bold my-4">Dashboard</h1>
+        <h1 className="text-2xl font-bold my-4">Admin Dashboard</h1>
         <h1 className="text-2xl font-bold mb-4">Welcome</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

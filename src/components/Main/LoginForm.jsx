@@ -49,9 +49,7 @@ const LoginForm = () => {
           className="w-full px-4 py-2 mb-4 border rounded-md focus:outline-none focus:border-blue-500"
           required
         />
-    <Link to="/" >
-    
-    
+    <Link to="/userDash" >
         <button
           type="submit"
           className="w-full px-4 py-2 text-lg text-white bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none"
